@@ -1,0 +1,85 @@
+a {
+  color: white;
+  border: transparent 2px solid;
+  border-radius: 10px;
+}
+
+a:hover {
+  border-bottom: #e2f109 solid 2px;
+  transition: 0.3s all;  
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+aside {
+  border: solid 2px #e2f109;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin:30px 0;
+}
+
+span {
+  font-size: 30px;
+}
+
+p {
+  margin: auto;
+  font-size: 18px;
+}
+
+img {
+  
+  width: 500px;
+}
+
+button {
+  height: 40px;
+  border-radius: 10px;
+  border: transparent solid 2px;
+  margin-bottom: 5px;
+  background-color: #e2f109;
+  cursor: pointer;
+}
+
+.wppBtn {
+  color: black;
+  text-decoration: none;
+}
+
+article {
+  border: solid 2px #e2f109;
+  border-radius: 20px;
+  text-align: center;
+  
+}
+
+@media (max-width: 550px) {
+
+
+    li {
+      display: inline-block;
+      margin: 10px;
+      font-size: 10px;
+    }
+
+  article {
+    width: 300px;
+  }
+
+  .serviceCard {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 300px;
+  }
+}
